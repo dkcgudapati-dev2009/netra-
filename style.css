@@ -1,0 +1,83 @@
+/*########global reset########*/
+*{
+    box-sizing: border-box;
+    margin:0 ;
+    padding:0 ;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(155, 106, 106);
+    color: rgb(240, 15, 15);
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 100vh;
+}
+
+/*button styling*/
+button{
+    font-family: inherit;
+    background: rgb(167, 194, 13);
+    color:brown;
+    font-weight: bolder;
+    border-radius: 8px;
+    padding:10px 20px;
+
+
+}
+.topbar{
+    min-height:80px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    gap:2px;
+    padding:15px 2%;
+    background-color:rgb(14, 233, 222) ;
+}
+.brand{
+    display:flex;
+    gap:12px;
+    align-items: center;
+}
+.brand-logo{
+  background: #287ee8;
+  border-radius: 10px;
+  padding:12px 16px;
+  font-weight: bolder;
+}
+.brand h1{
+ color:red;
+ letter-spacing:2px;
+}
+nav{
+display:flex;
+gap:10px;
+}
+nav a{
+    color:black;
+    font-size:13px;
+    text-decoration: none;
+}
+nav a:hover{
+color:blue;
+}
+.header-right{
+    display:flex;
+    gap:8px;
+    align:center;
+    color:blue;
+    font-size: 15px;
+}
+.ONLINE-DOT{
+    display:flex;
+    align:center;
+    background:black;
+    height:8px;
+    width:8px;
+    border-radius: 50%;
+}
+#clock{
+    color:rgb(124, 16, 16);
+    font-family: monospace;
+    margin-left:10px;
+}
